@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maurice Togo | Portfolio</title>
+  <style>
+    :root {
+      --bg-color: #0f172a;
+      --primary-color: #38bdf8;
+      --text-color: #f8fafc;
+      --card-bg: #1e293b;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+    }
+    header {
+      background-color: #1e293b;
+      padding: 3rem 1rem;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+    header h1 { font-size: 2.5rem; margin: 0; color: var(--primary-color); }
+    header p { font-size: 1.2rem; margin-top: 0.5rem; }
+
+    nav {
+      background-color: #0f172a;
+      padding: 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: var(--text-color);
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: var(--primary-color);
+    }
+
+    section {
+      padding: 3rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: var(--primary-color);
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    ul { padding-left: 1.5rem; }
+    li { margin-bottom: 0.5rem; }
+
+    .project {
+      background-color: var(--card-bg);
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
+    .project h3 {
+      margin-top: 0;
+      color: var(--primary-color);
+    }
+
+    a {
+      color: var(--primary-color);
+    }
+
+    footer {
+      background-color: #1e293b;
+      text-align: center;
+      padding: 1rem;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Maurice Togo</h1>
+    <p>Développeur Logiciel en formation à Bamako</p>
+  </header>
+
+  <nav>
+    <a href="#about">À propos</a>
+    <a href="#skills">Compétences</a>
+    <a href="#projects">Projets</a>
+    <a href="#cv">CV</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>À propos</h2>
+    <p>Je suis Maurice Togo, étudiant en Licence 2 de Génie Logiciel à Bamako. Passionné par le développement, la création d'applications web et logicielles, j'apprends actuellement Node.js et développe des projets personnels.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Compétences</h2>
+    <ul>
+      <li>Langages : Python, JavaScript, HTML, CSS, C, C++</li>
+      <li>Outils : Git, GitHub</li>
+      <li>Actuellement en apprentissage : Node.js</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projets</h2>
+    <div class="project">
+      <h3>Site Web Personnel</h3>
+      <p>Un site de présentation de mes compétences et projets.</p>
+    </div>
+    <div class="project">
+      <h3>Applications en cours</h3>
+      <p>Projets en Python et JavaScript (gestion, affichage) en développement.</p>
+    </div>
+  </section>
+
+  <section id="cv">
+    <h2>CV</h2>
+    <p><a href="CV_Maurice_Togo.pdf" download>Télécharger mon CV</a></p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email : <a href="mailto:moxekeep@gmail.com">moxekeep@gmail.com</a></p>
+    <p>Téléphone : +223 77363213 / +223 60133581</p>
+    <p>GitHub : <a href="https://github.com/Maurice223" target="_blank">Maurice223</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Maurice Togo</p>
+  </footer>
+</body>
+</html>
